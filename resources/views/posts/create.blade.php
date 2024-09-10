@@ -5,6 +5,10 @@
 @section('content')
     <h2 class="text-2xl font-bold mb-4">Create a New Post</h2>
 
+    <x-alert type="success" message="your post successfully created!" />
+    <x-alert type="error" message="do something"/>
+    <x-alert type="info" message="aaaaaaaaaaaaaaaaaaaaaaa"/>
+
     <form action="#" method="POST" class="space-y-4">
         <div>
             <label for="title" class="block text-sm font-bold">Title:</label>
